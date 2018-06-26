@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Script.Follow_luxire_Instragram">
+        <methods>
+          <include name="before"/>
+          <include name="Test"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- Script.Follow_luxire_Instragram -->
+      <class name="Script.FeedBack_Customer">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Script.FeedBack_Customer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
